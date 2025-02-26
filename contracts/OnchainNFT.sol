@@ -10,7 +10,7 @@ contract OnChainNFT is ERC721URIStorage {
 
     uint256 private _tokenIdCounter;
 
-    constructor() ERC721("KNFT","KT") {
+    constructor() ERC721("OnChainNFT","OCNFT") {
         _tokenIdCounter = 1;
     }
 
